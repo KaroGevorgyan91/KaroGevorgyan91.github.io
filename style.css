@@ -1,0 +1,159 @@
+body{
+    background-color: black;
+}
+.main{ 
+    margin: 0;
+    padding: 0;
+    background: url("z12.jpg") no-repeat;
+    background-size: cover;
+    }
+.box{
+   width: 450px; 
+   background: rgba(0,0,0, 0.7);
+   padding: 40px;
+   text-align: center;
+   margin: auto;
+   margin-top: 5%;
+   color: white;
+   font-family: 'Century Gothic', sans-serif;
+}
+.box-img{
+    border-radius: 50%;
+    width: 200px;
+    height: 200px;
+}
+.box h1{
+    font-size: 40px;
+    letter-spacing: 4px;
+    font-weight: 100;
+}
+.box h5{
+    font-size: 25px;
+    letter-spacing: 3px;
+    font-weight: 100;
+}
+box p{
+    text-align: justify;
+}
+ul{
+    margin:0;
+    padding: 0;
+}
+.box li{
+    display: inline-block;
+    margin: 6px;
+    list-style: none;
+    text-align: center;
+}
+.box li a{
+    color: white;
+    text-decoration: none;
+    font-size: 30px;
+    transition: all ease-in-out 100ms;
+    align-items: center;
+    text-align: center;
+}
+.box li a:hover{
+    color: #b9b9b9;
+}
+.topnav {
+    background-color: #333;
+    overflow: hidden;
+  }
+  .topnav a {
+    float: left;
+    color: #f2f2f2;
+    text-align: center;
+    padding: 20px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  .topnav a:hover {
+    color:#b9b9b9;
+  }
+  h2{
+    font-size: 30px;
+    letter-spacing: 3px;
+    font-weight: 90;
+    color: white;
+    text-align: center;
+  }
+  .do{
+      text-align: left;
+      font-size: 20px;
+      color: seashell;
+      padding:100px;
+      }
+.do:hover{
+    color: #b9b9b9;
+}
+.sls{
+    text-align: right;
+    font-size: 20px;
+    color: seashell;
+    padding: 50px; 
+}
+
+.sls:hover{
+    color: #b9b9b9;
+}
+.home{
+    text-align: right;
+    font-size: 20px;
+    color: seashell;
+    padding: 50px;
+}
+.res{
+    text-align: right;
+    font-size: 20px;
+    color: seashell;
+    padding: 50px;
+}
+#projects{
+    text-align: center;
+    margin: 20px;
+    padding: 400px;
+}
+footer{
+    align-items: end;
+    padding: 70px;
+    text-align: center
+}
+ul {
+    list-style: none;
+    padding: 40px;
+    align-items: center;
+}
+li{
+    display:block;
+    text-align: center;
+    align-items: center;
+	width:120px;
+	float:left;
+	margin-left:2px;
+    border:1px solid #000;
+    padding: 10px;
+}
+li>a{
+    display:block;
+	padding:3px;
+	text-decoration:none;
+    color:white;
+
+}
+li>a:hover{
+    background-color:#009;
+	color:#fff;
+}
+#datetime{
+    padding: 20px;
+    color: azure;
+    text-align: end;
+    align-items: baseline;
+}
+p{
+    padding: 5px;
+    color: azure;
+    text-align: end;
+
+}
